@@ -1,0 +1,11 @@
+Análisis de Componentes de un Entorno Servidor:
+
+- Sistema operativo: Es la capa de software base encargada de gestionar los recursos físicos de la máquina (CPU, RAM, almacenamiento) y de proveer el entorno de bajo nivel necesario para que se ejecuten procesos como Node.js de forma aislada y segura.
+
+- Node.js: Entorno de ejecución para JavaScript construido con el motor V8 de Chrome, que permite interpretar y ejecutar código JS en el lado del servidor de manera asíncrona y orientada a eventos, ideal para manejar múltiples conexiones concurrentes.
+
+- Aplicación server.js: Archivo fuente que contiene la lógica de negocio de nuestra API, donde se importan las dependencias, se configuran los middlewares y se definen explícitamente las rutas (endpoints) y respuestas HTTP que atenderá el sistema.
+
+- Puerto: Es un identificador numérico lógico (en este caso el 3000) asignado a un canal específico de comunicación en la interfaz de red del servidor, permitiendo canalizar el tráfico de datos entrante directamente hacia nuestra aplicación Express.
+
+- Logs: Archivos de registro cronológico que almacenan eventos del sistema, excepciones, accesos e información de depuración, permitiendo a los administradores auditar el comportamiento del servidor en producción y diagnosticar fallas rápidamente.

@@ -1,0 +1,14 @@
+Registro de Ejecución del Servidor Node.js:
+
+1. ¿Qué ocurre cuando ejecutas 'node server.js'?
+El entorno de ejecución de Node.js carga el script, levanta la instancia de Express en la memoria de la máquina e inicializa un socket TCP que se acopla al puerto asignado, bloqueando la terminal para mantenerse a la escucha de peticiones HTTP entrantes.
+
+2. ¿Qué mensaje aparece en la terminal?
+Aparece el string definido en el callback del listen: "Servidor ejecutándose en puerto 3000"
+
+3. ¿Qué sucede cuando visitas la ruta '/estado'?
+El servidor intercepta la petición HTTP con el método GET dirigida al endpoint '/estado', procesa la solicitud mediante el enrutador de Express y devuelve una respuesta estructurada en formato JSON con un código de estado 200 (OK). El navegador renderiza el siguiente objeto:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
