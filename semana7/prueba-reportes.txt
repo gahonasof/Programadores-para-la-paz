@@ -1,0 +1,3 @@
+Descripción de la consulta de datos (GET /reportes):
+
+Al realizar una petición GET a http://localhost:3000/reportes después de haber enviado datos mediante el método POST, el servidor responde con un estado de éxito y devuelve un array en formato JSON que contiene el listado completo de todos los objetos de incidencias guardados temporalmente en la memoria del servidor. Cada objeto dentro de la lista incluye de manera organizada un identificador numérico único e incremental (id), su clasificación (tipo) y la descripción detallada de la anomalía física enviada por el usuario.
