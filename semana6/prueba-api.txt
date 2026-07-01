@@ -1,0 +1,9 @@
+Respuesta devuelta por el servidor al probar la ruta POST /registro:
+
+Al enviar una petición POST a http://localhost:3000/registro con el JSON de prueba, el middleware express.json() procesa el cuerpo del mensaje y el servidor devuelve un objeto estructurado en formato JSON con el estado de éxito '200 OK'. El cuerpo exacto de la respuesta es:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
