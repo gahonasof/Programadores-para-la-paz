@@ -1,0 +1,8 @@
+Análisis de comandos de diagnóstico de sistema:
+
+1. uname -a: Este comando despliega la información completa del núcleo (kernel) del sistema operativo. Muestra el nombre del sistema operativo (Linux), el nombre de host del equipo en la red, la versión exacta y la fecha de compilación del kernel, así como la arquitectura del hardware (por ejemplo, x86_64 o aarch64).
+
+2. whoami: Este comando devuelve una cadena de texto simple con el nombre del usuario actual que tiene la sesión activa en la terminal de comandos.
+
+Importancia en la administración de servidores:
+Conocer estos datos es fundamental al gestionar un servidor web o de base de datos porque permite verificar la arquitectura del entorno antes de compilar o instalar paquetes de software, garantizando la compatibilidad. Además, ayuda a auditar qué nivel de privilegios tiene el usuario actual (saber si estamos operando como root o como un usuario restringido) para evitar errores críticos de configuración o vulnerabilidades por exceso de permisos.

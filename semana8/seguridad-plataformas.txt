@@ -1,0 +1,7 @@
+5 Prácticas de seguridad indispensables para plataformas digitales comunitarias:
+
+1. No exponer datos personales: Anonimizar o cifrar registros sensibles en la base de datos (como cédulas, teléfonos o direcciones) para prevenir fugas de información.
+2. Proteger credenciales: Implementar algoritmos de cifrado unidireccional y salting (como bcrypt) para almacenar contraseñas en el backend.
+3. Usar conexiones seguras: Forzar el uso de protocolos cifrados de transporte HTTPS mediante certificados SSL/TLS para evitar ataques de interceptación de tráfico (Man-in-the-Middle).
+4. Registrar accesos (Logging): Configurar logs o registros detallados de eventos del sistema para auditar modificaciones críticas y rastrear posibles accesos malintencionados.
+5. Limitar acceso a información sensible: Aplicar políticas estrictas de control de acceso basado en roles (RBAC), asegurando que solo personal autorizado pueda visualizar datos privados.
