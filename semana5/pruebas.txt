@@ -1,0 +1,5 @@
+Resultados de las pruebas en el navegador:
+
+1. Al acceder a http://localhost:3000, el navegador muestra el texto llano "Servidor activo", que corresponde a la ruta raíz (/).
+2. Al acceder a http://localhost:3000/saludo, el servidor responde devolviendo en pantalla la frase "Hola comunidad".
+3. Al acceder a http://localhost:3000/mensaje/juan, la ruta captura dinámicamente el parámetro ':nombre' de la URL y responde saludando directamente con un "Hola juan".
